@@ -1,0 +1,1 @@
+CompletedProcess(args=['powershell.exe', 'Get-WmiObject Win32_PnPSignedDriver | select devicename, driverversion'], returncode=0)

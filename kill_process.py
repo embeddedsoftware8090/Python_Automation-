@@ -7,7 +7,6 @@
 
 ##Method2
 import os
-
 def terminate(ProcessName):
     os.system('taskkill /IM "' + ProcessName + '" /F')
 terminate('notepad.exe')

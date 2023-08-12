@@ -1,18 +1,16 @@
 import os
 import pyautogui as pg
 import cv2
-import cv2_tools
-import aoirint_cv2videotools
-import time
-from time import sleep
-from datetime import datetime
-
-os.startfile(r"C:/Users/Balkumar/Downloads/cpu-z_2.02-en/cpuz_x64.exe")
-sleep(5)
-
-pg.leftClick(613,20)
-time.sleep(2)
-# try:
+# import cv2_tools
+# import aoirint_cv2videotools
+# import time
+# from time import sleep
+# from datetime import datetime
+# os.startfile(r"C:/Users/Balkumar/Downloads/cpu-z_2.02-en/cpuz_x64.exe")
+# sleep(5)
+# pg.leftClick(613,20)
+# time.sleep(2)
+# # try:
 #     # open MS Teams application
 #     os.startfile(r"C:/Users/Balkumar/Downloads/cpu-z_2.02-en/cpuz_x64.exe")
 #     sleep(5)
@@ -29,13 +27,13 @@ time.sleep(2)
 
 #----------------------------------------------------------------------------
 # # #------------------- oppenning any application
-# import os
-# import pywinauto,time
-# from pywinauto.application import Application
-# from pywinauto.keyboard import send_keys
-# app =os.startfile("C:/Users/Balkumar/Downloads/cpu-z_2.02-en/cpuz_x64.exe")
-# #os.startfile("C:/ProgramData/Microsoft/Windows/Start Menu/Programs/System Tools/Task Manager.lnk")
-# time.sleep(5)
+import os
+import pywinauto,time
+from pywinauto.application import Application
+from pywinauto.keyboard import send_keys
+#app =os.startfile("C:/Users/Balkumar/Downloads/cpu-z_2.02-en/cpuz_x64.exe")
+os.startfile("C:/ProgramData/Microsoft/Windows/Start Menu/Programs/System Tools/Task Manager.lnk")
+time.sleep(5)
 
 #--------------------------------------------------------------------------------
 
